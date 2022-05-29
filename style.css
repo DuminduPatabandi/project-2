@@ -26,14 +26,12 @@ header {
 
 footer {
     background-color: #0d1617e4;
-    height: 100px;
+    min-height: 100px;
     border-radius: 20px 20px 0px 0px;
     text-align: center;
     margin-top: 15rem;
     padding: 4rem 3rem;
-    box-sizing: border-box;
-   
-    
+    box-sizing: border-box; 
 }
 
 p {
@@ -42,7 +40,7 @@ p {
 
 footer p {
     color: #8ABDB2;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     line-height: 1rem; 
 }
 
@@ -53,6 +51,7 @@ footer a {
 
 footer a:hover {
     color: #48D2DB;
+    transition-duration: 0.6s;
 }
 
 main {
@@ -118,8 +117,8 @@ main {
 }
 
 .logo {
-    width: 25%;
-    height: 25%;
+    width: 30%;
+    height: 30%;
     padding-left: 20px;
 }
 
@@ -190,7 +189,7 @@ p {
 
 .card1:hover,.card2:hover,.card3:hover {
     transform: scale(0.98);
-    transition-duration: 1.5s;
+    transition-duration: 0.6s;
    
 }
 
@@ -380,54 +379,23 @@ div form input:last-child {
 
 /* -----------------------Social media-------------------- */
 
+footer  {
+   align-self: center;
+}
 
-
-ul {
-    position:absolute;
-    top:242%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    margin:0;
-    padding:0;
-    display:flex;
-  }
   
-  ul li {
+  footer nav li {
     list-style: none;
   }
   
-  ul li a {
-    position: relative;
-    width:60px;
-    height:60px;
-    display:block;
-    text-align:center;
-    margin:0 10px;
-    border-radius: 50%;
-    padding: 6px;
-    box-sizing: border-box;
-    text-decoration:none;
-    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
-    background: linear-gradient(0deg, #ddd, #fff);
-    transition: .5s;
+ footer .fab {
+     padding-bottom: 20px;
+ }
+
+ ul li:hover .fab {
+    transition-duration: 0.6s;
   }
-  
-  ul li a:hover {
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-    text-decoration:none;
-  }
-  
-  ul li a .fab {
-    width: 100%;
-    height:100%;
-    display:block;
-    background: linear-gradient(0deg, #fff, #ddd);
-    border-radius: 50%;
-    line-height: calc(60px - 12px);
-    font-size:24px;
-    color: #262626;
-    transition: .5s;
-  }
+ 
   
   ul li:nth-child(1) a:hover .fab {
     color: #3b5998;
