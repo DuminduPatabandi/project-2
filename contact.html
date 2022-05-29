@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Educapedia test2</title>
+    <title>Educapedia contact page</title>
+
     <!-- This is Eric Meyers css reset -->
     <link rel="stylesheet" href="css-reset.css">
     <!-- This is my styl sheet -->
@@ -25,7 +26,9 @@
     <div class="container">
         <header>
             <div class="logo">
-                <img class = "logo" src="images/LOGO.png" alt="Educapedia logo">
+                <a href="index.html">
+                    <img class = "logo" src="images/LOGO.png" alt="Educapedia logo">
+                </a>
             </div>
     
             <nav class="menu-tab">
@@ -35,49 +38,44 @@
 
                         <div class="dropdown">
                             <div class="navbutton">
-                                <a class="drop-button" href="#" target="_blank">Hire a Tutor</a>
+                                <a class="drop-button" href="#">Hire a Tutor</a>
                             </div>
                             <div class="navbutton">
-                                <a class="drop-button" href="#" target="_blank">Watch a Session</a>
+                                <a class="drop-button" href="#">Watch a Session</a>
                             </div>
                             <div class="navbutton">
-                                <a class="drop-button" href="#" target="_blank">Zoom meeting</a>
+                                <a class="drop-button" href="#">Zoom meeting</a>
                             </div>
                         </div>
 
                 </div>
 
                 <div class="navbutton">
-                    <a class="link" href="drop-down.html" target="_blank">ABOUT</a>
+                    <a class="link" href="drop-down.html">ABOUT</a>
                 </div>
 
                 <div class="navbutton">
-                    <a class="link" href="contact.html">CONTACT</a>
+                    <a class="link" href="#">CONTACT</a>
                 </div>
 
             </nav>
 
         </header>
 
-        <main>
-            <div class="herobox1">
+        <div class="main2">
 
-                <h1>EDUCAPEDIA</h1>
-                <p class="find-reference">Find reference for your Academic.</p>
+            <h1>CONTACT US</h1>
+            <p>We, Educapedia loves to help you with any thing. Please feel free to contact us anytime.</p>
 
-                <nav>
-                    <p>Hay there undergraduates around the world. We are Educapedia Studio and we try our best to give you every kind of reference books, pdfs you need for your university stuff. </p>
-                </nav>
-               
-                <a href="#" target="_blank" class = "mybutton"><i class="fa-solid fa-arrow-right "></i> Let's go</a>
-                
-            </div>
-            
-            <div class="herobox2">
-                    <img class = "tree" src="images/leaves.jpg" alt="Image of a tree.">
-            </div>
+            <form action="mail.php" method="post">
 
-        </main>
+                    <input type="text" name="name" id="name">
+                    <input type="email" name="email" id="email">
+                    <input type="submit" value="submit">
+
+            </form>
+
+        </div>
 
       <div class="separator"></div>
 
