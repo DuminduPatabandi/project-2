@@ -162,6 +162,15 @@ h2 {
     color: white;
 }
 
+h4 {
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .cards h2 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -379,24 +388,16 @@ div form input:last-child {
 
 /* -----------------------Social media-------------------- */
 
-footer  {
-   align-self: center;
-}
 
-  
-  footer nav li {
-    list-style: none;
-  }
-  
- footer .fab {
-     padding-bottom: 20px;
- }
-
- ul li:hover .fab {
-    transition-duration: 0.6s;
+  footer .fab , .fa-solid{
+      padding-bottom: 20px;
   }
  
-  
+
+  ul li:hover .fab , .fa-solid {
+     transition-duration: 0.6s;
+   } 
+ 
   ul li:nth-child(1) a:hover .fab {
     color: #3b5998;
   }
@@ -406,7 +407,7 @@ footer  {
   }
   
   ul li:nth-child(3) a:hover .fab {
-    color: #d82c27;
+    color: #e4405f;
   }
   
   ul li:nth-child(4) a:hover .fab {
@@ -414,9 +415,12 @@ footer  {
   }
   
   ul li:nth-child(5) a:hover .fab {
-    color: #e4405f;
+    color: #e34be5;
+  }
+
+  ul li:nth-child(1) a:hover .fa-solid {
+    color: #f3ca20;
   }
 
   /* ------------------------------------------------------ */
 
-  
